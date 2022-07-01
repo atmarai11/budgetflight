@@ -1,0 +1,151 @@
+ <!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Budgetflight</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	<body>
+	<header>
+		<div class="logo">
+			<a href="index.html"><img src="aeroplane.png" alt="aeroplane" title="Companylogo"></a>
+		</div>
+		<div class="search">
+			<input type="text" name="search" placeholder="Search Flight !" class="text">
+			<button type="button" class="button">Search</button>
+		</div>
+	
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="arrivals.html">Arrivals And Departures</a></li>
+				<li><a href="flightinfo.html">Flightinfo</a></li>
+				<li><a href="apps.html">Mobile Apps</a></li>
+				<li><a href="about_us.html">About Us</a></li>
+				<li><a href="explore.html">Explore</a></li>
+				<li><a href="check_in.html">Check-In</a></li>
+				<li><a href="help.html">FAQs/Help</a></li>
+				<div class="dropdown"><li><a href="others.html">Others</a></li>
+					<div class="dropdown-content">
+						<li>
+							<a href="#">Gallery</a>
+							<a href="#">Login</a>
+						</li>
+					</div>
+				</div>
+			</ul>
+
+		</div>
+	</header>
+		 <div class="section">
+			<fieldset>
+				<h3><u>Book Flight Online</u></h3>
+				<br><br>
+			<form action="page.php" method="POST">
+
+				<input type="radio" name="1" value="One way">One way<!--  -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="1" value="Round trip">Round trip
+				<br><br>
+
+				<label for="adults"></label>
+				<input type="number" min="0" max="50" placeholder="adults"> Adults (12 + Yrs)
+				<br><br>
+				<label="children"></label>
+				<input type="number" min="0" max="50" placeholder="children"> Children (02 - 11 Yrs)
+				<br><br>
+
+				<label="infant"></label>
+				<input type="number" min="0" max="50" placeholder="infant"> Infant(0-2 Yrs)
+				<br><br><!--  -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+				<label for="from">From</label>
+				<select name="country" id="from">
+					<option value="sector">--Sector--</option>
+					<option value="UK">Uk</option>
+				</select>
+				<br><br><!--  -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+				<label for="to">To</label>
+				<select name="country" id="to">
+					<option value="sector">--Sector--</option>
+					<option value="german">German</option>
+					<option value="france">France</option>
+					<option value="italy">Italy</option>
+					<option value="spain">Spain</option>
+					<option value="switzerland">Switzerland</option>
+					<option value="greece">Greece</option>
+					<option value="natherlands">Natherlands</option>
+					<option value="poland">Poland</option>
+					<option value="sweden">Sweden</option>
+					<option value="belgium">Belgium</option>
+				</select>
+				<br><br><!--  -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+				<label>="departure date"></label>
+				<input type="date" name="departure date">Departure Date
+				<br><br><!--  -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+				<label>="return date"></label>
+				<input type="date" name="return date" id="return date"> Return Date
+				<br><br>
+
+				<label>="gender">Gender:</label>
+				<input type="radio" name="gender" value="male" id="gender">Male<!--  -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="gender" value="female" id="gender">Female<!--  -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="gender" value="other" id="gender">Others
+				<br><br><!--  -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+				<label for="dob">DOB:</label>
+				<input type="DOB" name="dob" id="dob">
+				<br><br>
+				
+				<button type="button">Book Now</button><!--  -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button type="button" class="cancelbtn">Reset</button>
+
+			</form>
+			</fieldset>
+		
+		</div>
+		<div class="footer">
+			<div class="left">
+				<h2>Important Links</h2><br><br>
+
+				<a href="">History</a><br>
+				<a href="">About Us</a><br>
+				<a href="">Check-IN</a><br>
+				<a href="">FAQs</a><br>
+			</div>
+
+			<div class="mid">
+				<form action="#" method="post">
+					<h1>Subscribe</h1>
+
+					<label>Name:</label>
+					<input type="text" name="name" placeholder="Name..."><br><br>
+
+					<label>Email:</label>
+					<input type="text" name="email" placeholder="Email..."><br><br>
+
+					<input type="submit" value="Subscribe"><br>
+
+				</form>
+			</div>
+			<div class="right">
+				<h2>Contact Us</h2><br>
+				Address:-<br>
+				Email:- <br>
+				Contact No:-<br>
+				
+				<img src="google.png" alt="Google">
+				<img src="email.png" alt="Email">
+				<img src="facebook.png" alt="facebook">
+				<img src="instagram.png" alt="instagram">
+				<img src="twitter.png" alt="twitter">
+			</div>
+		</div>
+	</body>
+</html>

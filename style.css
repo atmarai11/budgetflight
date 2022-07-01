@@ -1,0 +1,238 @@
+/*header page starts from here*/
+header{
+	background-color:transparent;
+	height:150px;
+	width:100%;
+	
+}
+
+.logo img{
+	height:138px;
+	width:144px;
+	margin-top:20px;
+	margin-left:100px;
+	color:transparent;
+
+	
+}
+.search{ 
+	margin-left:800px;
+
+
+
+}
+/*body page starts form here*/
+body{
+	background-image: url("airflight.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+	background-color:#ADD8E6;
+	margin:0;
+}
+/*footer starts from here*/
+.footer{
+	width:100%;
+	height:250px;
+	background-color:gray;
+}
+.left{
+	float:left;
+	margin-left:73px;
+}
+.left a{text-decoration:none;}
+.left a:hover {color:blue;}
+
+.mid{
+	float:left;
+	margin-left:232px;
+}
+.right{
+	float:left;
+	margin-left:300px;
+}
+.right img{
+	width:30px;
+	height:30px;
+	border-radius:45%;
+}
+.right img:hover{
+	background-color:blue;
+}
+/*nav page starts form here*/
+.nav ul{
+	overflow:hidden;
+	list-style-type:none;
+	margin-left:8px;
+	background-color:#0003;
+	float:left;
+	width:95%;
+}
+
+.nav ul .dropdown{
+	margin-left:1px;
+	
+}
+.nav ul li a{
+	text-decoration:none;
+	background-color:#2F4F4F;
+	color:	#87CEFA;
+	display:block;
+	padding:10px;
+	border-radius:18px;
+}
+.nav ul li{
+	float:left;
+	padding:12px;
+	margin-left:25px;
+}
+.nav ul li a:hover{
+	background-color:white;
+	color:purple;
+}
+/*section page starts form here*/
+.section fieldset{
+
+	margin-left: 287px;
+	height:513px;
+	width:350px;
+	background-color:#0009;
+	color:white;
+	
+}
+.section fieldset:hover{
+	color:gray;
+}
+.section fieldset h3{
+	color:skyblue;
+	text-align:center;
+}
+/*explore page starts form here*/
+.explore{
+	text-align:center;
+	height:50vh;
+}
+
+.explore .country{
+	border:4px solid green;
+	height:150px;
+	width:200px;
+	margin-left:10px;
+	margin-top:20px;
+	float:left;
+	border-radius:50%;
+	margin-top: 50px;
+}
+.country img{
+	height:150px;
+	width:200px;
+	border-radius:50%;
+}
+.info{
+	clear:left;
+}
+
+.tableFull{
+	width:100%;
+	border-collapse:collapse;
+	text-align:center;
+}
+.bodered>tbody>tr>td,.bodered>tbody>tr>td{
+	border:2px solid;
+	
+}
+.text_content{
+	text-align:center;
+
+}
+.text_content h3{
+	color:#FF0000;
+}
+.text_content p{
+	color:black;
+	margin-left:251px; 
+}
+.arrivals .Service_Center{
+	margin-left:161px;
+}
+.arrivals a{
+	margin-left:240px;
+}
+.arrivals h3{
+	text-align:center;
+	color:#FF1493;
+}
+.arrivals table{
+	margin-left:386px;
+	width:49%;
+}
+.flightinfo table{
+	margin-left:386px;
+	width:49%;
+
+}
+.flightinfo h3{
+	text-align:center;
+	color:#FF1493;
+
+}
+.information{
+
+	margin-left:241px;
+
+}
+.about_us h1{
+	text-align:center;
+	color:#FF1493;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-left: 441px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position:relative;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+/* about_starts form here*/
+.photo img{
+	height:100px;
+	width:100px;
+}
+
+
+
+
+
+
